@@ -1,0 +1,23 @@
+SITUATION
+- Logs are critical for debugging and monitoring applications
+- Manual log checking is slow and error-prone
+- Production environments generate thousands of log entries daily
+
+TASK
+- Build a log analysis tool to automate log parsing and summarization
+- Make it user-friendly and easy to integrate into workflows
+- Ensure it can be used from command line like real DevOps tools
+
+ACTION
+- Created log_analyzer.py (Day 04): Reads log file, counts levels, writes summary
+- Enhanced with OOP using LogAnalyzer class (Day 05): Better structure and maintainability
+- Built CLI interface using argparse (Day 06): Command-line arguments for file paths and filtering
+- Designed comprehensive workflow (Day 07): Planning before coding mindset
+- Made code production-ready: Error handling, file validation, clean output
+
+RESULT
+- Reduced time to analyze logs from minutes to seconds
+- Tool is reusable across different log files
+- Can be integrated into monitoring systems
+- Serves as foundation for more advanced log analysis features
+- Demonstrates core DevOps automation principles
